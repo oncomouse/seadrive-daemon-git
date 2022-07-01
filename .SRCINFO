@@ -1,0 +1,23 @@
+pkgbase = seadrive-daemon-git
+	pkgver = r25.07a788a
+	pkgrel = 1
+	pkgdesc = Daemon part of seadrive
+	arch = x86_64
+	url = https://github.com/haiwen/seadrive-fuse
+	license = Apache
+	depends = libsearpc
+	depends = libcurl-compat
+	depends = libevent-compat
+	depends = openssl-1.0
+	depends = fuse2
+	makedepends = git
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = make
+	makedepends = gcc
+	provides = seadrive-daemon
+	conflicts = seadrive-daemon
+	source = git+https://github.com/haiwen/seadrive-fuse.git
+	md5sums = SKIP
+
+pkgname = seadrive-daemon-git
