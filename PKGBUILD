@@ -1,8 +1,8 @@
-# Maintainer: Martin Sandsmark <martin.sandsmark@kde.org>
+# Maintainer: Andrew Pilsch <oncomouse@gmail.com>
 pkgname=seadrive-daemon-git
 pkgver=r25.07a788a
 pkgrel=1
-pkgdesc="Daemon part of seadrive"
+pkgdesc="Daemon part of Seadrive"
 arch=(x86_64)
 url="https://github.com/haiwen/seadrive-fuse"
 license=(Apache)
